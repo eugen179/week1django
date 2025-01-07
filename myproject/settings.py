@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-s)s_3dl)^46%yqt1ps#=j05(k!x7m&_sr7&_9&+qab97s-g9el
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['calorie_db.onrender.com']
+ALLOWED_HOSTS = ['calorie-test.onrender.com', 'localhost', '127.0.0.1']
+
 
 
 
@@ -69,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'my_project.wsgi.application'
+WSGI_APPLICATION = 'myproject.wsgi.application'
 
 
 # Database
