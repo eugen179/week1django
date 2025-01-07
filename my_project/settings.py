@@ -86,6 +86,11 @@ DATABASES = {
 }
 
 
+import dj_database_url
+
+DATABASES = {
+    'default': dj_database_url.parse("postgresql://calorie_user:iZ1lUZDzRlKn31g1fyCksL6dcgCEZihk@dpg-ctud0ed2ng1s739cqas0-a.oregon-postgres.render.com/calorie")
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
@@ -122,6 +127,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = 'static/'
+STATICFILES_DRIS = [BASE_DIR / "static",]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
