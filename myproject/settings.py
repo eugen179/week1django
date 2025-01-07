@@ -91,7 +91,7 @@ DATABASES = {
 import dj_database_url
 
 DATABASES = {
-    'default': dj_database_url.parse("postgresql://calorie_user:iZ1lUZDzRlKn31g1fyCksL6dcgCEZihk@dpg-ctud0ed2ng1s739cqas0-a.oregon-postgres.render.com/calorie")
+    'default': dj_database_url.parse("postgresql://calorie_db_1wsc_user:UGwPyZvWoqpVUeYzxu3klViM89pGW9NX@dpg-ctuf1trtq21c73bhsb20-a/calorie_db_1wsc")
 }
 
 # Password validation
